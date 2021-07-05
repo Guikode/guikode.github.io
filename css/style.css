@@ -3,8 +3,7 @@ GENERALITIES
 ***************************************************************** */
 
 body{
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+    background: #00308F;
     font-family:'Montserrat';
     text-align: center;
 }
@@ -23,6 +22,7 @@ img {
     max-width: 25%;
     height: auto;
     border-radius: 100px;
+    padding-top: 1%;
 }
 
 .container {
