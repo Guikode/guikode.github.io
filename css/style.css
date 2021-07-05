@@ -1,0 +1,53 @@
+/* *****************************************************************
+GENERALITIES
+***************************************************************** */
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+    font-family:'Montserrat';
+    text-align: center;
+}
+
+h1{
+    font-size: 2rem;
+    color: #0B51C5;
+}
+
+a {
+    font-size: 2rem;
+    color: #0B51C5;
+}
+
+img {
+    max-width: 25%;
+    height: auto;
+    border-radius: 100px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 0.5fr; 
+    grid-template-rows: 0.5fr 1fr 1fr 0.5fr 0.5fr 0.5fr; 
+    gap: 1% 1%; 
+  }
+  
+.main { 
+    grid-area: 2 / 2 / 6 / 6;
+    background-color: rgb(255, 255, 255);
+}
+  
+.avatar { grid-area: 2 / 3 / 3 / 5; }
+  
+.presentation { grid-area: 3 / 2 / 4 / 6; }
+  
+.link1 { grid-area: 4 / 2 / 5 / 3; }
+  
+.link2 { grid-area: 4 / 3 / 5 / 4; }
+  
+.link3 { grid-area: 4 / 4 / 5 / 5; }
+  
+.link4 { grid-area: 4 / 5 / 5 / 6; }
+  
+.credits { grid-area: 5 / 3 / 6 / 5; }
+  
